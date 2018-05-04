@@ -7,26 +7,91 @@ html, body {
     font-color:#222;
 }
 
+/*---NavBar--*/
 .navbar{
   padding: .8rem;
 }
-
 .navbar-nav{
   padding-right:20px;
 }
-
 .nav-link{
   font-size: 1.1em !important;
+}
+.navbar-nav a:hover{
+  color:#A200FF !important;
+}
+.navbar-nav .active a{
+  color:#FA00F0 !important;
+}
+
+/*---PageElements--*/
+
+.fixedheader{
+  color:rgba(250,0,230,.5);
+  font-size:5em;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
 }
 
 .social a{
   color: #d5d5d5;
-  font-size: 4em;
-  padding: 3rem;
+  font-size: 3.5em;
+  padding: 1.5rem;
+  margin: auto;
 }
-
-.nav-item:hover{
-  font-color:#e362e8;
+.card{
+  color: #A200FF;
+  margin-top:1.5rem;
+  margin-bottom:1.5rem;
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  float:left;
+}
+.teamphoto{
+  display:block;
+  max-width:30%;
+  height:auto;
+  float:left;
+  margin-top:1.5rem;
+  margin-right:1.5rem;
+  margin-left:1.5rem;
+  margin-bottom:1.5rem;
+}
+.teamtext{
+  max-width:70%;
+  float:left;
+  padding-left:.1rem;
+  padding-top:1rem;
+}
+.serviceicon{
+  display:block;
+  max-width:30%;
+  height:auto;
+  float:left;
+  margin-top:1.5rem;
+  margin-right:1.5rem;
+  margin-left:1.5rem;
+  margin-bottom:1.5rem;
+}
+.servicetext{
+  max-width:70%;
+  float:left;
+  padding-left:.1rem;
+  padding-top:1rem;
+}
+.h3{
+  color:#222;
+  margin-bottom: 10px;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+}
+.mainheader{
+  color:#222;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
 }
 
  .fa-facebook:hover,
@@ -34,14 +99,14 @@ html, body {
  .fa-instagram:hover,
  .fa-linkedin:hover,
  .fa-google-plus-g:hover{
-  color:#e362e8;
+  color:#f600f1;
 }
-
 .copyright{
   padding:auto;
   width:100%;
 }
 
+/*---Footer--*/
 footer{
    background-color: #3f3f3f;
    color: #d5d5d5;
@@ -64,12 +129,7 @@ hr.light-100{
 
 
 /*---Media Queries --*/
-@media (max-width: 1290px) {
-    .social a{
-      color: #d5d5d5;
-      font-size: 3.5em;
-      padding: 1.5rem;
-    }
+
 
 @media (max-width: 992px) {
     .social a{
@@ -77,23 +137,80 @@ hr.light-100{
       font-size: 2.5em;
       padding: 1.5rem;
     }
+    .fixedheader{
+      color:rgba(250,0,230,.75);
+      font-size:3em;
+      text-align:center;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+    }
+    .teamphoto{
+      display:block;
+      max-width:50%;
+      height:auto;
+      float:left;
+      margin-top:1.5rem;
+      margin-right:1.5rem;
+      margin-left:1.5rem;
+      margin-bottom:1.5rem;
+    }
   }
 @media (max-width: 768px) {
     .social a{
     color: #d5d5d5;
     font-size: 2em;
     padding: .8rem;
-  }
+    }
+    .fixedheader{
+      color:rgba(250,0,230,.75);
+      font-size:2.5em;
+      text-align:center;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+    }
+    .teamphoto{
+      display:block;
+      width:40%;
+      height:auto;
+      float:left;
+      margin:auto;
+    }
 }
 @media (max-width: 576px) {
     .social a{
     color: #d5d5d5;
     font-size: 2em;
     padding: .8rem;
-  }
-  
-}
+    }
 
+  .fixedheader{
+      color:rgba(250,0,230,.75);
+      font-size:1.65em;
+      text-align:center;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+    }
+  .teamphoto{
+      display:block;
+      width:40%; 
+      height:auto;
+      float:left;
+      margin:auto;
+    }
+}
+.embed-responsive-item{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40%;
+  tex-align:center;
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -107,9 +224,10 @@ hr.light-100{
 figure {
   position: relative;
   width: 100%;
-  height: 40%;
+  height: 55%;
   margin: 0!important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -132,6 +250,61 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
+
+.fixed-wrap2 {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 500;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#teamfixed {
+  background-image: url('img/blocktooth.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+#servfixed {
+  background-image: url('img/granite.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+#resourcefixed {
+  background-image: url('img/fixedHex.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
@@ -144,24 +317,12 @@ figure {
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-

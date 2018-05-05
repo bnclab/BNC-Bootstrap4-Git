@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 
 html, body {
     height:100%;
     width:100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-color:#222;
 }
 
@@ -58,13 +58,33 @@ html, body {
   margin-top:1.5rem;
   margin-right:1.5rem;
   margin-left:1.5rem;
-  margin-bottom:1.5rem;
+  margin-bottom:1rem;
 }
 .teamtext{
   max-width:70%;
   float:left;
   padding-left:.1rem;
-  padding-top:1rem;
+  padding-top:.1rem;
+}
+.teamMember{
+  color:#A200FF;
+  font-size:2em;
+  max-width:70%;
+}
+.teamtitle{
+  color:#FA00F0;
+  font-size:1.2em;
+  max-width:70%;
+}
+.teamaddy{
+  font-size:1em;
+  max-width:70%;
+}
+.teamblurb{
+  color:#3f3f3f;
+  font-size:1em;
+  max-width:70%;
+  padding-top:10px;
 }
 .serviceicon{
   display:block;
@@ -77,10 +97,18 @@ html, body {
   margin-bottom:1.5rem;
 }
 .servicetext{
-  max-width:70%;
+  max-width:100%;
   float:left;
   padding-left:.1rem;
   padding-top:1rem;
+}
+.servicecat{
+  max-width:100%;
+  font-size:2em;
+}
+.servicedesc{
+  max-width:100%;
+  font-size:1em;
 }
 .h3{
   color:#222;
@@ -156,12 +184,46 @@ hr.light-100{
       margin-left:1.5rem;
       margin-bottom:1.5rem;
     }
+    .teamtext{
+      font-size:.6em;
+      max-width:100%;
+      float:left;
+      padding-left:.1rem;
+      padding-top:1rem;
+    }
+    .teamMember{
+      color:#A200FF;
+      font-size:2em;
+      max-width:100%;
+    }
+    .teamtitle{
+      color:#FA00F0;
+      font-size:1.2em;
+      max-width:100%;
+    }
+    .teamaddy{
+      font-size:1em;
+      max-width:100%;
+    }
+    .teamblurb{
+      color:#3f3f3f;
+      font-size:1em;
+      max-width:100%;
+      padding-top:10px;
+    }
+    .servicetext{
+      font-size:1em;
+      max-width:100%;
+      float:left;
+      padding-left:.1rem;
+      padding-top:1rem;
+    }
   }
 @media (max-width: 768px) {
     .social a{
-    color: #d5d5d5;
-    font-size: 2em;
-    padding: .8rem;
+      color: #d5d5d5;
+      font-size: 2em;
+      padding: .8rem;
     }
     .fixedheader{
       color:rgba(250,0,230,.75);
@@ -178,6 +240,47 @@ hr.light-100{
       height:auto;
       float:left;
       margin:auto;
+    }
+    .teamtext{
+      font-size:.6em;
+      max-width:100%;
+      float:left;
+      padding-left:.1rem;
+      padding-top:1rem;
+    }
+    .teamMember{
+      color:#A200FF;
+      font-size:2em;
+      max-width:100%;
+    }
+    .teamtitle{
+      color:#FA00F0;
+      font-size:1.2em;
+      max-width:100%;
+    }
+    .teamaddy{
+      font-size:1em;
+      max-width:100%;
+    }
+    .teamblurb{
+      color:#3f3f3f;
+      font-size:1em;
+      max-width:100%;
+      padding-top:10px;
+    }
+    .servicetext{
+      font-size:1em;
+      max-width:900%;
+      padding-left:.1rem;
+      padding-top:1rem;
+    }
+    .servicecat{
+      max-width:100%;
+      font-size:1.8em;
+    }
+    .servicedesc{
+      max-width:100%;
+      font-size:1em;
     }
 }
 @media (max-width: 576px) {
@@ -202,6 +305,48 @@ hr.light-100{
       height:auto;
       float:left;
       margin:auto;
+    }
+    .teamtext{
+      font-size:.6em;
+      max-width:100%;
+      float:left;
+      padding-left:.1rem;
+      padding-top:1rem;
+    }
+    .teamMember{
+      color:#A200FF;
+      font-size:2em;
+      max-width:100%;
+    }
+    .teamtitle{
+      color:#FA00F0;
+      font-size:1.2em;
+      max-width:100%;
+    }
+    .teamaddy{
+      font-size:1em;
+      max-width:100%;
+    }
+    .teamblurb{
+      color:#3f3f3f;
+      font-size:1em;
+      max-width:100%;
+      padding-top:10px;
+    }
+    .servicetext{
+      font-size:.6em;
+      max-width:100%;
+      float:left;
+      padding-left:.1rem;
+      padding-top:1rem;
+    }
+    .servicecat{
+      max-width:100%;
+      font-size:1.8em;
+    }
+    .servicedesc{
+      max-width:100%;
+      font-size:1em;
     }
 }
 .embed-responsive-item{

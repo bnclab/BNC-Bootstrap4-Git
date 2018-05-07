@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115819182-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115819182-1');
+</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Learn More – Block&amp;Chain Labs</title>
-	<link rel="stylesheet" href="Plugins/aos/aos.css">
+	<title>About Us – Block&amp;Chain Labs</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -18,8 +26,7 @@
 
 <body>
 
-
-	<!-- Navigation -->
+  <!-- Navigation -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="http://bnclabs.io"><img src="img/logo3.png"></a>
@@ -32,16 +39,16 @@
 				<a class="nav-link" href="http://bnclabs.io">Home</a>
 				</li>
 				<!-- <li class="nav-item">
-					<a class="nav-link" href="team.html">Meet the Team</a>
+					<a class="nav-link" href="team">Meet the Team</a>
 				</li> -->
 				<li class="nav-item">
-				<a class="nav-link" href="services.html">Services</a>
+				<a class="nav-link" href="services">Services</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href="resources.html">Resources</a>
+				<a class="nav-link" href="resources">Resources</a>
 				</li>
 				<li class="nav-item">
-        		<a class="nav-link" href="learn.html">Learn More</a>
+        		<a class="nav-link" href="learn">Learn More</a>
       			</li>
 			</ul>
 		</div>
@@ -49,12 +56,26 @@
 	</nav>
 
 
-<!--Main-->
-<div class="container-fluid" >
-	<div class="row" style="height:1100px; overflow: hidden;">
-		<iframe scrolling="no" src="https://mailchi.mp/bnclabs.io/learn-more" style="border:none; min-height:100%; width:100%; overflow: hidden;"></iframe>
+<!--- Parallax -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed"></div>
 	</div>
+</figure>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">About Us</p>
 </div>
+</div>
+
+<p><center><h3>What are we?</h3></center><p/>
+<p>Block&Chain Labs is a full service blockchain and cryptocurrency agency. We believe that blockchain technology will change the world for the better. As an established blockchain and cryptocurrency laboratory, we help people refine their ideas and bring them to market. Our blockchain and cryptocurrency experts will guide you, and together we can build the next great blockchain application.
+</p>
+<p>If you have an idea or are already working on a blockchain or cryptocurrency project we want to help! Call or reach out today. We would love to have a coffee or drink with you and talk about your ideas. Schedule a meeting today or drop by our office and say hello!
+</P>
 
 <!--- Footer -->
 <footer>
@@ -83,12 +104,5 @@
     </div>
 </footer>
 
-	<script src="plugins/aos/aos.js"></script>
-
-	<script type="text/javascript">
-		AOS.init();
-	</script>
-
 </body>
-
 </html>

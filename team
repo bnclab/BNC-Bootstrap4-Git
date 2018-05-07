@@ -91,7 +91,7 @@ Star Trek or Star Wars? Star Trek TNG hands down.
     	<span>
 
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img  width="250" height="250" src="img/josh-miller.jpeg" alt="JoshMiller" padding-right:"10px">
+		    	<img  width="250" height="250" src="img/profile/josh.png" alt="JoshMiller" padding-right:"10px">
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">
@@ -107,11 +107,11 @@ Star Trek or Star Wars? Star Trek TNG hands down.
     <div class="card col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
     	<span>
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img width="250" height="250" src="img/inessa-miller.jpeg" alt="InessaMiller" padding-right:"10px">
+		    	<img width="250" height="250" src="img/profile/inessa.png" alt="InessaMiller" padding-right:"10px">
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">
-		        <div class="teamMember">Inessa Owulette-Miller</div>
+		        <div class="teamMember">Inessa Miller</div>
 		        <div class="teamtitle">Full-Stack Developer</div>
 		        <div class="teamaddy">inessa.miller@bnclabs.io</div>
 		        <div class="teamblurb">Lorem ipsum dolor sit amet, amet equidem instructior nec ea, per ex patrioque adversarium, sed at copiosae instructior mediocritatem. Purto dicta audiam no qui, quem dicta constituto an quo, admodum nostrum placerat mei an. Esse idque similique nam ad, no verear minimum assentior mei. Tota propriae conclusionemque duo et.</div>
@@ -123,7 +123,7 @@ Star Trek or Star Wars? Star Trek TNG hands down.
     	<span>
 
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img width="250" height="250" src="img/shawn-lester.jpeg" alt="ShawnLester" padding-right:"10px">
+		    	<img width="250" height="250" src="img/profile/shawn.png" alt="ShawnLester" padding-right:"10px">
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">
@@ -140,7 +140,7 @@ Star Trek or Star Wars? Star Trek TNG hands down.
     	<span>
 
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img width="250" height="250" src="img/jessica-smith.jpeg" alt="Jessica Smith" padding-right:"10px">
+		    	<img width="250" height="250" src="img/profile/jess.png" alt="Jessica Smith" padding-right:"10px">
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">

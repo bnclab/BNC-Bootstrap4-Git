@@ -31,9 +31,9 @@
 				<li class="nav-item active">
 				<a class="nav-link" href="http://bnclabs.io">Home</a>
 				</li>
-				<!-- <li class="nav-item">
+				<li class="nav-item">
 					<a class="nav-link" href="team">Meet the Team</a>
-				</li> -->
+				</li>
 				<li class="nav-item">
 				<a class="nav-link" href="services">Services</a>
 				</li>
@@ -73,7 +73,7 @@
 		        <div class="teamtitle">Founder & CEO</div>
 		        <div class="teamaddy">justin.bean@bnclabs.io</div>
 		        <div class="teamblurb">Justin is a digital sales and marketing expert with over a decade of experience in web-based sales and marketing in the B2B environment. He specializes in research and development of products in markets from Agriculture to Aero-space. He is a big idea guy and brings a unique ability to connect people across a wide breadth of industries.
-
+<p></p>
 <p>Interests: Fintech, Supply Chain Technology, Autonomous Vehicles, Politics, Seasteading, Space Exploration, Cycling, Motorcycles, Surfing, and DOGS!</p>
 
 <p>Community Involvement: Founder of the WIPA District, Founder of SmartBurg, Chair of SailFuture, Executive Committee and Board Member Fintech Mortgage Association, and Former Chair of St Pete Young Professionals.</p>
@@ -85,7 +85,7 @@
 
     </div>
 
-
+<!---
     <div class="card col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
     	<span>
 
@@ -117,7 +117,7 @@
 		    </div>
 		</span>
     </div>
-
+-->
     <div class="card col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
     	<span>
 
@@ -130,13 +130,13 @@
 		        <div class="teamtitle">Solutions Architect</div>
 		        <div class="teamaddy">shawn.lester@bnclabs.io</div>
 		        <div class="teamblurb">Shawn has a diverse background rooted in business intelligence, finance, and web development. He has developed his range of skills in the audit, marketing &amp; sales, and medical technology industries over several years. He specializes in process automation and improvement, CRM development and administration, analysis and reporting, and web design &amp; development.
-
+<p></p>
 <p>Interests: Science, Literature, Philosophy, Technology, Fitness, Music, Graphic Design, Woodworking, and Scotch.</p></div>
 
 		    </div>
 		</span>
 	</div>
-
+<!---
 	<div class="card col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
     	<span>
 
@@ -152,7 +152,7 @@
 		    </div>
 		</span>
 	</div>
-
+--->
 
 		    </div>
 		    </div>

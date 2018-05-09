@@ -155,36 +155,6 @@
     </div>
     <!-- Grid column -->
 
-    <!-- Grid column -->
-    <div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-
-        <!--Modal: Name-->
-        <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-                <!--Content-->
-                <div class="modal-content">
-
-                    <!--Body-->
-                    <div class="modal-body mb-0 p-0">
-
-                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/A1Vbrxkqjwc?controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-
-                    </div>
-
-                </div>
-                <!--/.Content-->
-
-            </div>
-        </div>
-        <!--Modal: Name-->
-
-        <a><img class="img-fluid z-depth-1" src="img/youtube_new kids on the blockchain.png" alt="video" data-toggle="modal" data-target="#modal4"></a>
-
-    </div>
-    <!-- Grid column -->
 
 </div>
 </div>

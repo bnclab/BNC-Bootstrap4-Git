@@ -169,6 +169,9 @@
 		AOS.init();
 	</script>
 
+	<!-- Mailchimp popup -->
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"1628a43e0a746b7087ba14512","lid":"6e936af178"}) })</script>
+
 </body>
 
 </html>

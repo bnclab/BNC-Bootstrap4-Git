@@ -22,7 +22,7 @@
 	<style>
 
 	</style>
-  
+
   <!-- Facebook Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -59,7 +59,7 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-				<a class="nav-link" href="http://bnclabs.io">Home</a>
+				<a class="nav-link" href="https://bnclabs.io">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="team">Meet the Team</a>
@@ -105,7 +105,7 @@
     <div class="container-fluid padding sticky-bottom">
         <div class="row text-center">
             <div class="col-md-4 colsm-12">
-                <a href="http://bnclabs.io"><img src="img/logo3.png"></a>
+                <a href="https://bnclabs.io"><img src="img/logo3.png"></a>
                 <hr class="light">
                 <!-- <p>(727) 867-5309</p> -->
                 <p><a href="mailto:info@bnclabs.io">Email Us</a></p>

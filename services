@@ -45,14 +45,14 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="http://bnclabs.io"><img src="img/logo3.png"></a>
+			<a class="navbar-brand" href="https://bnclabs.io"><img src="img/logo3.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 			</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-				<a class="nav-link" href="http://bnclabs.io">Home</a>
+				<li class="nav-item">
+				<a class="nav-link" href="https://bnclabs.io">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="team">Meet the Team</a>
@@ -60,7 +60,7 @@
 				<li class="nav-item">
 				<a class="nav-link" href="services">Services</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item active">
 				<a class="nav-link" href="resources">Resources</a>
 				</li>
 				<li class="nav-item">
@@ -164,7 +164,7 @@
     <div class="container-fluid padding sticky-bottom">
         <div class="row text-center">
             <div class="col-md-4 colsm-12">
-                <a href="http://bnclabs.io"><img src="img/logo3.png"></a>
+                <a href="https://bnclabs.io"><img src="img/logo3.png"></a>
                 <hr class="light">
                 <!-- <p>(727) 867-5309</p> -->
                 <p><a href="mailto:info@bnclabs.io">Email Us</a></p>

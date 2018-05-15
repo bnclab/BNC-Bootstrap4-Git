@@ -88,8 +88,8 @@
     	<span>
 
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img width="250" height="250" src="img/profile/jb.png" alt="JustinBean" padding-right:"10px">
-		    </div>
+		    	<a href="https://www.linkedin.com/in/justin-bean-33777b15"><img width="250" height="250" src="img/profile/jb.png" alt="JustinBean" padding-right:"10px"><a/>
+				</div>
 
 		    <div class="teamtext" data-aos="fade-left">
 		        <div class="teamMember">Justin Bean</div>
@@ -111,7 +111,7 @@
     	<span>
 
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img  width="250" height="250" src="img/profile/jm.png" alt="JoshMiller" padding-right:"10px">
+		    	<a href="https://www.linkedin.com/in/meetjoshmiller/"><img  width="250" height="250" src="img/profile/jm.png" alt="JoshMiller" padding-right:"10px"></a>
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">
@@ -130,7 +130,7 @@
     <div class="card col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
     	<span>
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img width="250" height="250" src="img/profile/im.png" alt="InessaMiller" padding-right:"10px">
+		    	<a href="https://www.linkedin.com/in/inessamiller/"><img width="250" height="250" src="img/profile/im.png" alt="InessaMiller" padding-right:"10px"></a>
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">
@@ -149,7 +149,7 @@
     	<span>
 
 		    <div class="teamphoto" data-aos="fade-right">
-		    	<img width="250" height="250" src="img/profile/sl.png" alt="ShawnLester" padding-right:"10px">
+		    	<a href="https://www.linkedin.com/in/shawn-lester-2b48a753/"><img width="250" height="250" src="img/profile/sl.png" alt="ShawnLester" padding-right:"10px"><a/>
 		    </div>
 
 		    <div class="teamtext" data-aos="fade-left">

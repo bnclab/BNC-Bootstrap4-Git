@@ -158,6 +158,9 @@
 		<div id="servfixed"></div>
 		<!--div class="fixedheader"><p data-aos="fade-down">What We Do</p></div-->
 	</div>
+	<div class="wrapper">
+	<a href="mailto:contact@bnclabs.io"><button class="button">Let's Chat!</button></a>
+	</div>
 </figure>
 <!--- Footer -->
 <footer>

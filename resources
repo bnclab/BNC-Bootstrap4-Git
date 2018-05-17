@@ -181,6 +181,15 @@
 </div>
 </div>
 
+<figure>
+	<div class="fixed-wrap2">
+		<div id="teamfixed"></div>
+	</div>
+	<div class="wrapper">
+  <a href="mailto:contact@bnclabs.io"><button class="button">Let's Chat!</button></a>
+  </div>
+</figure>
+
 <!--- Footer -->
 <footer>
     <div class="container-fluid padding sticky-bottom">
